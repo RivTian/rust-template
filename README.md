@@ -50,6 +50,16 @@ pipx install pre-commit
 
 安装成功后运行 `pre-commit install` 即可。
 
+或使用相同风格的 `prek` 工具
+
+```bash
+ cargo install --locked --git https://github.com/j178/prek
+ # or
+ brew install prek
+```
+
+安装成功后运行 `prek install` 即可。
+
 ### 安装 Cargo deny
 
 Cargo deny 是一个 Cargo 插件，可以用于检查依赖的安全性。
